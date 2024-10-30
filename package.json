@@ -1,3 +1,4 @@
+npm install --save gh-pages
 {
   "homepage": "https://Alex-Lloyd-PhD.github.io/MFweb-app",
   "name": "mf_react",
@@ -24,7 +25,9 @@
     "survey-react": "^1.7.8"
   },
   "scripts": {
-    "start": "node server.js",
++   "predeploy": "npm run build",
++   "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
