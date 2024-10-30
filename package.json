@@ -1,5 +1,4 @@
 {
-  npm install --save gh-pages
   "homepage": "https://Alex-Lloyd-PhD.github.io/mf_react",
   "name": "mf_react",
   "version": "0.1.0",
